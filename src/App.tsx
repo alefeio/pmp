@@ -34,8 +34,7 @@ const Subtitle = styled.h2`
   font-weight: normal;
 `;
 
-const Image = styled.img<{ largura: string; }>`
-  width: ${props => props.largura}px;
+const Image = styled.img`
   margin: 1rem 0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -133,7 +132,6 @@ const Footer = styled.footer`
 // Meta Tags for SEO
 const Head: React.FC = () => (
   <>
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Transforme sua vida com nosso eBook sobre exercícios para fortalecer o músculo pubococcígeo (PC). Melhore sua saúde sexual e geral agora!" />
     <meta name="keywords" content="exercícios músculo PC, saúde sexual, controle ejaculação, ereção forte, ebook saúde" />
@@ -158,7 +156,7 @@ const App: React.FC = () => {
         <Header>
           <Title>PerformanceMaxPro</Title>
           <Subtitle>Transforme sua vida e alcance o máximo desempenho</Subtitle>
-          <Image src={ebookCoverImage} alt="Capa do Ebook PerformanceMaxPro" largura={800} />
+          <Image src={ebookCoverImage} alt="Capa do Ebook PerformanceMaxPro" width={800} />
         </Header>
 
         <Content>
@@ -261,7 +259,7 @@ const App: React.FC = () => {
 
         <Content>
           <SectionTitle>Garantia e Segurança</SectionTitle>
-          <Image src={guaranteeImage} alt="Garantia de satisfação" largura={300} />
+          <Image src={guaranteeImage} alt="Garantia de satisfação" width={300} />
           <Paragraph>
             Estamos tão confiantes na eficácia do <strong>PerformanceMaxPro</strong> que oferecemos
             uma garantia incondicional de 30 dias. Se você não estiver completamente satisfeito com
