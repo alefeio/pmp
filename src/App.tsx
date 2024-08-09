@@ -75,7 +75,7 @@ const TestimonialText = styled.p`
   text-align: center;
 `;
 
-const CTAButton = styled.button`
+const CTAButton = styled.a`
   padding: 1rem 2rem;
   font-size: 1.25rem;
   color: white;
@@ -286,7 +286,7 @@ const App: React.FC = () => {
           <Paragraph>
             Você está a um passo de revolucionar sua vida sexual e melhorar sua saúde de maneira significativa. Imagine o quanto sua confiança, auto-estima e relacionamentos podem melhorar com o controle total sobre seu desempenho. Não deixe essa oportunidade passar. Faça um pequeno investimento em si mesmo e colha os frutos para o resto da vida. Lembre-se, sua satisfação é garantida.
           </Paragraph>
-          <CTAButton>Compre Agora e Comece a Transformação</CTAButton>
+          <CTAButton href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Compre Agora e Comece a Transformação</CTAButton>
         </Content>
 
         <Footer>
