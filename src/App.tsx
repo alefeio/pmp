@@ -3,7 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
 import { GlobalStyle } from './globalStyles';
 import guaranteeImage from './assets/garantia-de-30-dias-ou-seu-dinheiro-de-volta-copy.png';
-import ebookCoverImage from './assets/sexo-casal.webp';
+import ebookCoverImage from './assets/pmp.jpg';
 import Countdown from './CountDown';
 
 const Container = styled.div`
