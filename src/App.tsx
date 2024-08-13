@@ -275,7 +275,7 @@ const App: React.FC = () => {
           <OfferDetails>
             Aproveite esta oferta por tempo limitado! Garanta seu exemplar do <strong>PerformanceMaxPro</strong> por um preço especial e comece a transformar sua vida hoje mesmo. Além disso, ao adquirir agora, você receberá um bônus exclusivo: um guia rápido com dicas para maximizar os resultados dos exercícios.
           </OfferDetails>
-          <CTAButton>Quero Transformar Minha Vida Agora</CTAButton>
+          <CTAButton href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Quero Transformar Minha Vida Agora</CTAButton>
         </PriceSection>
 
         <SectionTitle>Aproveite Agora: Sua Oferta Exclusiva Termina em:</SectionTitle>
