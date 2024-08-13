@@ -262,7 +262,7 @@ const App: React.FC = () => {
           <Image src={guaranteeImage} alt="Garantia de satisfação" width={300} />
           <Paragraph>
             Estamos tão confiantes na eficácia do <strong>PerformanceMaxPro</strong> que oferecemos
-            uma garantia incondicional de 30 dias. Se você não estiver completamente satisfeito com
+            uma garantia incondicional de 7 dias. Se você não estiver completamente satisfeito com
             os resultados, devolvemos seu dinheiro sem perguntas. Você não tem nada a perder e tudo a ganhar. Sua segurança e satisfação são nossas prioridades, e garantimos que você estará investindo em um produto que realmente faz a diferença.
 
           </Paragraph>
