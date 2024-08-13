@@ -8,20 +8,20 @@ import Countdown from './CountDown';
 
 const Container = styled.div`
   padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
+  width: 100vw;
 `;
 
 const Header = styled.header`
-  background-color: ${({ theme }) => theme.colors.primary};
-  color: white;
-  padding: 2rem;
   text-align: center;
   border-radius: 8px;
   margin-bottom: 2rem;
+  align-self: center;
+
+  img {
+    width: 100%;
+    max-width: 500px;
+  }
 `;
 
 const Title = styled.h1`
@@ -48,6 +48,10 @@ const Content = styled.section`
   text-align: left;
   margin-bottom: 2rem;
   text-align: center;
+
+  img {
+    max-width: 250px;
+  }
 `;
 
 const SectionTitle = styled.h3`
@@ -80,6 +84,21 @@ const CTAButton = styled.a`
   font-size: 1.25rem;
   color: white;
   background-color: ${({ theme }) => theme.colors.accent};
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.primary};
+  }
+`;
+
+const CTAButton2 = styled.a`
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  color: white;
+  background-color: ${({ theme }) => theme.colors.primary};
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -154,13 +173,13 @@ const App: React.FC = () => {
       <Head />
       <Container>
         <Header>
-          <Title>PerformanceMaxPro</Title>
+          <Title>Performance Max Pro</Title>
           <Subtitle>Transforme sua vida e alcance o máximo desempenho</Subtitle>
           <Image src={ebookCoverImage} alt="Capa do Ebook PerformanceMaxPro" width={800} />
         </Header>
 
         <Content>
-          <SectionTitle>Bem-vindo ao PerformanceMaxPro</SectionTitle>
+          <SectionTitle>Bem-vindo ao Performance Max Pro</SectionTitle>
           <Paragraph>
             Quero começar compartilhando uma história pessoal, pois acredito que muitos de vocês
             poderão se identificar. Houve um tempo em minha vida em que a ejaculação precoce e a
@@ -275,7 +294,7 @@ const App: React.FC = () => {
           <OfferDetails>
             Aproveite esta oferta por tempo limitado! Garanta seu exemplar do <strong>PerformanceMaxPro</strong> por um preço especial e comece a transformar sua vida hoje mesmo. Além disso, ao adquirir agora, você receberá um bônus exclusivo: um guia rápido com dicas para maximizar os resultados dos exercícios.
           </OfferDetails>
-          <CTAButton href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Quero Transformar Minha Vida Agora</CTAButton>
+          <CTAButton2 href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Comprar Agora</CTAButton2>
         </PriceSection>
 
         <SectionTitle>Aproveite Agora: Sua Oferta Exclusiva Termina em:</SectionTitle>
@@ -286,7 +305,7 @@ const App: React.FC = () => {
           <Paragraph>
             Você está a um passo de revolucionar sua vida sexual e melhorar sua saúde de maneira significativa. Imagine o quanto sua confiança, auto-estima e relacionamentos podem melhorar com o controle total sobre seu desempenho. Não deixe essa oportunidade passar. Faça um pequeno investimento em si mesmo e colha os frutos para o resto da vida. Lembre-se, sua satisfação é garantida.
           </Paragraph>
-          <CTAButton href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Compre Agora e Comece a Transformação</CTAButton>
+          <CTAButton href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Comprar Agora</CTAButton>
         </Content>
 
         <Footer>

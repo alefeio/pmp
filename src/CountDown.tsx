@@ -10,6 +10,9 @@ const CountdownContainer = styled.div`
   border: 2px solid #f07c8c;
   border-radius: 10px;
   background-color: #fff7f7;
+  text-align: center;
+  align-self: center;
+  max-width: 300px;
 `;
 
 const TimeUnit = styled.div`
@@ -60,8 +63,6 @@ const Countdown: React.FC = () => {
       <Label>Horas</Label>
       <TimeUnit>{timeLeft.minutes}</TimeUnit>
       <Label>Minutos</Label>
-      <TimeUnit>{timeLeft.seconds}</TimeUnit>
-      <Label>Segundos</Label>
     </CountdownContainer>
   );
 };
