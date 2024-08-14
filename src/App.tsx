@@ -254,13 +254,15 @@ const App: React.FC = () => {
         <Content>
           <SectionTitle>Benefícios dos Exercícios para o Músculo PC</SectionTitle>
           <Paragraph>
-            <strong>Melhor Desempenho Sexual:</strong> Fortalecer o músculo PC pode revolucionar sua
+            <strong>Melhor Desempenho Sexual:</strong> <br />
+            Fortalecer o músculo PC pode revolucionar sua
             vida sexual. Imagine ter o controle total sobre sua ejaculação, permitindo uma relação
             sexual mais prolongada e satisfatória. Não é apenas uma questão de durar mais tempo, mas
             de aumentar o prazer para você e sua parceira.
           </Paragraph>
           <Paragraph>
-            <strong>Combate à Impotência:</strong> A disfunção erétil pode ser um problema
+            <strong>Combate à Impotência:</strong> <br />
+            A disfunção erétil pode ser um problema
             devastador, afetando homens de todas as idades. Os exercícios do músculo PC são uma
             ferramenta poderosa na prevenção deste problema, ajudando a manter sua função erétil
             saudável. Se você já está enfrentando problemas de impotência, não perca a esperança. Os
@@ -268,12 +270,14 @@ const App: React.FC = () => {
             restaurar sua capacidade e confiança sexual.
           </Paragraph>
           <Paragraph>
-            <strong>Saúde da Próstata:</strong> Estudos indicam que fortalecer o músculo PC pode
+            <strong>Saúde da Próstata:</strong> <br />
+            Estudos indicam que fortalecer o músculo PC pode
             auxiliar na prevenção do aumento da próstata, ajudando a manter a saúde masculina em
             geral.
           </Paragraph>
           <Paragraph>
-            <strong>Benefícios para a Saúde Geral:</strong> Fortalecer o músculo PC não só melhora a
+            <strong>Benefícios para a Saúde Geral:</strong> <br />
+            Fortalecer o músculo PC não só melhora a
             vida sexual, mas também contribui para a saúde geral. Isso inclui o controle da bexiga,
             ajudando a evitar e tratar a incontinência urinária, e a saúde intestinal, auxiliando no
             controle da incontinência fecal. Um músculo PC forte é um pilar essencial para uma vida
