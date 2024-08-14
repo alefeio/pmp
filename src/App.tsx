@@ -7,7 +7,6 @@ import ebookCoverImage from './assets/pmp.jpg';
 import Countdown from './CountDown';
 
 const Container = styled.div`
-  padding: 2rem;
   margin: 0 auto;
   width: 100vw;
 `;
@@ -43,10 +42,29 @@ const Image = styled.img`
 const Content = styled.section`
   padding: 2rem;
   background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
-  margin-bottom: 2rem;
+  text-align: center;
+
+  img {
+    max-width: 250px;
+  }
+`;
+
+const Content1 = styled.section`
+  padding: 2rem;
+  background-color: #46433f;
+  color: white;
+  text-align: left;
+  text-align: center;
+
+  img {
+    max-width: 250px;
+  }
+`;
+
+const Content2 = styled.section`
+  padding: 2rem;
+  text-align: left;
   text-align: center;
 
   img {
@@ -57,6 +75,13 @@ const Content = styled.section`
 const SectionTitle = styled.h3`
   font-size: 1.75rem;
   color: ${({ theme }) => theme.colors.secondary};
+  margin: auto;
+  margin-bottom: 1rem;
+`;
+
+const SectionTitle1 = styled.h3`
+  font-size: 1.75rem;
+  color: #e5b640;
   margin: auto;
   margin-bottom: 1rem;
 `;
@@ -112,7 +137,6 @@ const CTAButton2 = styled.a`
 const PriceSection = styled.section`
   padding: 2rem;
   background-color: ${({ theme }) => theme.colors.accent};
-  border-radius: 8px;
   color: white;
   text-align: center;
   margin-bottom: 2rem;
@@ -178,8 +202,18 @@ const App: React.FC = () => {
           <Image src={ebookCoverImage} alt="Capa do Ebook PerformanceMaxPro" width={800} />
         </Header>
 
-        <Content>
-          <SectionTitle>Bem-vindo ao Performance Max Pro</SectionTitle>
+        <Content1>
+          <SectionTitle1>Bem-vindo ao Performance Max Pro</SectionTitle1>
+          <Paragraph>
+            Bem-vindo ao PerformanceMaxPro, o curso que pode transformar sua vida de uma maneira que você nunca imaginou. Se você já enfrentou desafios como a ejaculação precoce, impotência, ou simplesmente não conseguiu manter o controle desejado, então você sabe o impacto que esses problemas podem ter na sua vida. Eles não apenas afetam a sua performance, mas também corroem sua confiança, sua autoestima e, por extensão, sua felicidade e qualidade de vida.
+          </Paragraph>
+          <Paragraph>
+            O PerformanceMaxPro foi criado para ajudar você a superar esses desafios com uma abordagem prática, baseada em exercícios comprovados para fortalecer o músculo PC (pubococcígeo). Este curso é o resultado de muita pesquisa, prática e experiência pessoal, que agora compartilho com você para que possa também experimentar uma transformação completa.
+          </Paragraph>
+        </Content1>
+
+        <Content2>
+          <SectionTitle>Minha história</SectionTitle>
           <Paragraph>
             Quero começar compartilhando uma história pessoal, pois acredito que muitos de vocês
             poderão se identificar. Houve um tempo em minha vida em que a ejaculação precoce e a
@@ -208,7 +242,14 @@ const App: React.FC = () => {
             realiza outras atividades do seu dia a dia. É um investimento pequeno com um retorno
             enorme.
           </Paragraph>
-        </Content>
+          <Paragraph>
+            Agora que você conhece minha história e entende o poder dos exercícios para o músculo PC, imagine o que esse conhecimento pode fazer por você. Pense em como sua vida pode mudar, como sua confiança pode se elevar e como você pode proporcionar uma experiência inigualável para sua parceira.
+          </Paragraph>
+          <Paragraph>
+            O PerformanceMaxPro não é apenas um curso – é a chave para recuperar o controle, a confiança, e a vida que você merece. Não deixe que esses problemas continuem a controlar você. Tome a decisão de transformar sua vida hoje. Adquira o curso agora e dê o primeiro passo para uma vida plena, confiante e realizada. Sua jornada para o melhor desempenho começa aqui!
+          </Paragraph>
+          <CTAButton href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Quero Adquirir</CTAButton>
+        </Content2>
 
         <Content>
           <SectionTitle>Benefícios dos Exercícios para o Músculo PC</SectionTitle>
@@ -240,7 +281,7 @@ const App: React.FC = () => {
           </Paragraph>
         </Content>
 
-        <Content>
+        <Content2>
           <SectionTitle>Testemunhos</SectionTitle>
           <Testimonial>
             <TestimonialText>
@@ -274,7 +315,7 @@ const App: React.FC = () => {
               <br />- Marcos S.
             </TestimonialText>
           </Testimonial>
-        </Content>
+        </Content2>
 
         <Content>
           <SectionTitle>Garantia e Segurança</SectionTitle>
@@ -294,7 +335,7 @@ const App: React.FC = () => {
           <OfferDetails>
             Aproveite esta oferta por tempo limitado! Garanta seu exemplar do <strong>PerformanceMaxPro</strong> por um preço especial e comece a transformar sua vida hoje mesmo. Além disso, ao adquirir agora, você receberá um bônus exclusivo: um guia rápido com dicas para maximizar os resultados dos exercícios.
           </OfferDetails>
-          <CTAButton2 href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Comprar Agora</CTAButton2>
+          <CTAButton2 href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Aproveitar Oferta</CTAButton2>
         </PriceSection>
 
         <SectionTitle>Aproveite Agora: Sua Oferta Exclusiva Termina em:</SectionTitle>
