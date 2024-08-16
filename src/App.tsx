@@ -335,7 +335,7 @@ const App: React.FC = () => {
         <PriceSection>
           <PriceTitle>Preço e Oferta Especial</PriceTitle>
           <Discount>De: R$ 199,90</Discount>
-          <Price>Por: R$ 97,00</Price>
+          <Price>Por: R$ 29,00</Price>
           <OfferDetails>
             Aproveite esta oferta por tempo limitado! Garanta seu exemplar do <strong>PerformanceMaxPro</strong> por um preço especial e comece a transformar sua vida hoje mesmo. Além disso, ao adquirir agora, você receberá um bônus exclusivo: um guia rápido com dicas para maximizar os resultados dos exercícios.
           </OfferDetails>
