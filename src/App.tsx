@@ -248,7 +248,7 @@ const App: React.FC = () => {
           <Paragraph>
             O PerformanceMaxPro não é apenas um curso – é a chave para recuperar o controle, a confiança, e a vida que você merece. Não deixe que esses problemas continuem a controlar você. Tome a decisão de transformar sua vida hoje. Adquira o curso agora e dê o primeiro passo para uma vida plena, confiante e realizada. Sua jornada para o melhor desempenho começa aqui!
           </Paragraph>
-          <CTAButton href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Quero Adquirir</CTAButton>
+          <CTAButton href='https://pay.kiwify.com.br/oAyn5Du' target='_blank'>Quero Adquirir</CTAButton>
         </Content2>
 
         <Content>
@@ -339,7 +339,7 @@ const App: React.FC = () => {
           <OfferDetails>
             Aproveite esta oferta por tempo limitado! Garanta seu exemplar do <strong>PerformanceMaxPro</strong> por um preço especial e comece a transformar sua vida hoje mesmo. Além disso, ao adquirir agora, você receberá um bônus exclusivo: um guia rápido com dicas para maximizar os resultados dos exercícios.
           </OfferDetails>
-          <CTAButton2 href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Aproveitar Oferta</CTAButton2>
+          <CTAButton2 href='https://pay.kiwify.com.br/oAyn5Du' target='_blank'>Aproveitar Oferta</CTAButton2>
         </PriceSection>
 
         <SectionTitle>Aproveite Agora: Sua Oferta Exclusiva Termina em:</SectionTitle>
@@ -350,7 +350,7 @@ const App: React.FC = () => {
           <Paragraph>
             Você está a um passo de revolucionar sua vida sexual e melhorar sua saúde de maneira significativa. Imagine o quanto sua confiança, auto-estima e relacionamentos podem melhorar com o controle total sobre seu desempenho. Não deixe essa oportunidade passar. Faça um pequeno investimento em si mesmo e colha os frutos para o resto da vida. Lembre-se, sua satisfação é garantida.
           </Paragraph>
-          <CTAButton href='https://pay.kiwify.com.br/lYB8nKO' target='_blank'>Comprar Agora</CTAButton>
+          <CTAButton href='https://pay.kiwify.com.br/oAyn5Du' target='_blank'>Comprar Agora</CTAButton>
         </Content>
 
         <Footer>
