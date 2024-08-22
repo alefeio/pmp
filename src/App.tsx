@@ -76,6 +76,7 @@ const SectionTitle = styled.h3`
   font-size: 1.75rem;
   color: ${({ theme }) => theme.colors.secondary};
   margin: auto;
+  text-align: center;
   margin-bottom: 1rem;
 `;
 
