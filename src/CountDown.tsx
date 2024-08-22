@@ -30,7 +30,7 @@ const Label = styled.div`
 
 const Countdown: React.FC = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date('2024-08-20T23:59:59') - +new Date();
+    const difference = +new Date('2024-08-29T23:59:59') - +new Date();
     let timeLeft = {
       days: Math.floor(difference / (1000 * 60 * 60 * 24)),
       hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
